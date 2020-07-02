@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Saimon Pavlov</title>
+</head>
+<body class="page">
+    <div class="wrapper">        
+            <header class="header"> 
+                <div class="header__tegs">
+                    <span id="teg1" class="header__tegs_teg1 header__tegs_item">&lt;div&gt;</span>
+                    <span id="teg2" class="header__tegs_teg2 header__tegs_item">&lt;/&gt;</span>
+                    <span id="teg3" class="header__tegs_teg3 header__tegs_item">{}</span>
+                    <span id="teg4" class="header__tegs_teg4 header__tegs_item">#</span>
+                </div>                   
+                <div class="container header__container">
+                    <nav class="header__nav">
+                        <div class="nav__left">
+                            <img class="burgerPict" src="./img/burger.png" alt="Menu">
+                            <ul class="nav__left_list">
+                                <li class="nav__left_elem"><a class="nav__left_link" href="#skills"> Services</a></li>
+                                <li class="nav__left_elem"><a class="nav__left_link" href="#portfolio"> Portfolio</a></li>
+                                <li class="nav__left_elem"><a class="nav__left_link" href="#price"> Price</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav__center">
+                            <a class="phoneNumber nav__center_phoneNumber" href="tel:+79053118544">+7 (905) 311 85 44</a>
+                        </div>
+                        <div class="nav__right">
+                            <a class="phoneNumber nav__right_phoneNumber" href="tel:+79053118544">+7 (905) 311 85 44</a>
+                            <a class="phoneMe nav__right_phoneMe popup__link popup-link" href="#popup">
+                                <svg class="social__phone nav__right_social">
+                                    <use xlink:href="sprite.svg#phone"></use>
+                                </svg>
+                                <span class="social__phone_text">Phone Me</span> </a>
+                        </div>                        
+                    </nav>
+                    <div class="mobile__nav">
+                        <ul class="nav__mobile_list">
+                            <li><a class="mobileLink" href="#skills"> Services</a></li>
+                            <li><a class="mobileLink" href="#portfolio"> Portfolio</a></li>
+                            <li><a class="mobileLink" href="#price"> Price</a></li>                            
+                        </ul>
+                    </div>
+                    <div class="header__content">
+                        <div class="header__text">
+                            <h1 class="header__text_title">Saimon Pavlov</h1>
+                            <h3 class="header__text_subtitle">Frontend developer</h3>
+                            <a class="moreInfo popup__link popup-link" href="#popup">                                 
+                                More information
+                            </a>
+                        </div>
+                        <div class="header__img">    
+                            <picture class="header__img_main">
+                                <source media="(max-width: 550px)" srcset="./img/Saimon_small.png">
+                                <source srcset="./img/Saimon.png">    
+                                <img src="./img/Saimon.png" alt="Personal photo">
+                            </picture>                        
+                            
+                        </div>
+                    </div>
+                </div>    
+            </header>
+            <section class="skills" id="skills">
+                <div class="container">
+                    <h2 class="otherTitle">I can do</h2>
+                    <div class="skills__row">
+                        <div class="skills__item">
+                            <div class="skills__img">
+                                <img src="./img/icons/tools-and-utensils.png" alt="Skill 1">
+                            </div>
+                            <div class="skills__text">Вёрстка лендинг–страниц и сайтов любой сложности</div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__img">
+                                <img src="./img/icons/responsive.png" alt="Skill 2">
+                            </div>
+                            <div class="skills__text">Адаптивная вёрстка под все браузеры и устройства</div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__img">
+                                <img src="./img/icons/programming.png" alt="Skill 3">
+                            </div>
+                            <div class="skills__text">Frontend–разработка и программирование</div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__img">
+                                <img src="./img/icons/coding(1).png" alt="Skill 4">
+                            </div>
+                            <div class="skills__text">Исправление и доработка существующей вёрстки</div>
+                        </div>
+                    </div>
+                    <a class="moreInfo skills__button popup__link moreInfo__link popup-link" href="#popup">
+                        More information
+                    </a>
+                </div>                
+            </section>
+            <section class="works" id="portfolio">
+                <div class="container">
+                    <h2 class="otherTitle">Examples</h2>
+                    <div class="works__slider slider">
+                        <div class="slider__item">
+                            <div class="slider__item_img">
+                                <img src="./img/Layer1.png" alt="">
+                            </div>
+                            <div class="slider__item_text">
+                                Сайт юного тиктокера
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item_img">
+                                <img src="./img/Layer2.png" alt="">
+
+                            </div>
+                            <div class="slider__item_text">
+                                Сайт психолога, которому нужен психиатр
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item_img">
+                                <img src="./img/Layer3.png" alt="">
+
+                            </div>
+                            <div class="slider__item_text">
+                                Сайт магазина "Рыболов"
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item_img">
+                                <img src="./img/Layer11.png" alt="">
+                            </div>
+                            <div class="slider__item_text">
+                                Сайт юного тиктокера
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item_img">
+                                <img src="./img/Layer22.png" alt="">
+                            </div>
+                            <div class="slider__item_text">
+                                Сайт психолога, которому нужен психиатр
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item_img">
+                                <img src="./img/Layer33.png" alt="">
+                            </div>
+                            <div class="slider__item_text">
+                                Сайт магазина "Рыболов"
+                            </div>
+                        </div>
+                    </div>                    
+                    <a class="moreInfo skills__button popup__link popup-link" href="#popup">
+                        Order project
+                    </a>
+                </div>
+            </section>
+            <section class="about" id="price">
+                <div class="container">                
+                    <h4 class="about__content_title">Адаптивная вёрстка под все устройства и браузеры от 1000 рублей всего за 4 часа.*</h4>
+                    <h5 class="about__content_subtitle">* Срок и стоимость могут отличаться от заявленных и рассчитываются  индивидуально, в зависимости от сложности задач.</h5>
+                </div>    
+            </section>
+            <footer class="footer">
+                <div class="container">
+                    <div class="links">
+                        <div class="links__site">
+                            <ul class="footer__links">
+                                <li class="footer__links_item"><a class="footer__links_link" href="#">Services</a></li>
+                                <li class="footer__links_item"><a class="footer__links_link" href="#">Portfolio</a></li>
+                                <li class="footer__links_item"><a class="footer__links_link" href="#">Price</a></li>
+                            </ul>
+                        </div>
+                        <div class="links__telmail">
+                            <span class="social__row">
+                                <svg class="social__phone footer__socialPhone">
+                                    <use xlink:href="sprite.svg#phone"></use>
+                                </svg>
+                                <a class="footer__telmail" href="tel:+79053118544"> +7 (905) 311 - 85 -44</a>
+                            </span>
+                            <span class="social__row">
+                                <svg class="social__phone footer__socialPhone">
+                                    <use xlink:href="sprite.svg#mail"></use>
+                                </svg>
+                                <a class="footer__telmail" href="mailto:saimon-kazan@yandex.ru">saimon-kazan@yandex.ru</a>
+                            </span>
+                            
+                        </div>
+                        <a class="moreInfo footer__moreInfo popup__link moreInfo__link popup-link" href="#popup"> 
+                            More information
+                        </a>
+                        <div class="links__social">
+                            <a class="phoneMe footer__phoneMe popup__link popup-link" href="#popup">Phone Me</a>
+                            <div class="social__items">
+                                <a href="https://www.instagram.com/saimonkzn/" target="_blank"><svg class="social__insta social__elem">
+                                    <use xlink:href="sprite.svg#insta"></use>
+                                </svg></a>
+                                <a href="https://vk.com/pavlovsemen" target="_blank"><svg class="social__vk social__elem">
+                                    <use xlink:href="sprite.svg#vk"></use>
+                                </svg></a>
+                                <a href="#"><svg class="social__tw social__elem">
+                                    <use xlink:href="sprite.svg#twitter"></use>
+                                </svg></a>
+                                <a href="#"><svg class="social__fb social__elem">
+                                    <use xlink:href="sprite.svg#facebook"></use>
+                                </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lastLine">
+                    <small class="lastLine__content">&copy; Saimon Pavlov</small>
+                </div>
+            </footer>            
+    </div>
+    <div class="popup" id="popup">        
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#" class="popup__close close-popup">X</a>
+                <div class="popup__title">
+                    Write your phone number
+                </div>
+                <form action="http://httpbin.org/post" method="post" id="sendNumber">
+                        <div class="error"></div>   
+                        <div class="form-group">                        
+                            <select id="country" class="form-control">
+                                <option value="ru">Россия +7</option>
+                                <option value="ua">Украина +380</option>
+                                <option value="by">Белоруссия +375</option>
+                            </select>
+                            <input type="tel" name="number">
+                        </div> 
+                        <input type="submit" value="Send" name="sendNumber">                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.maskedinput.js"></script>
+    <script src="./js/jquery.maskedinput.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/popup.js"></script>
+</body>
+</html>
